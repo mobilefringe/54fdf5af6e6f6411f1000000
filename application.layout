@@ -151,7 +151,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:black;
+        color:#dce6dd;
     }
     
     .site_welcome_msg{
@@ -207,10 +207,7 @@
         color: #135a1e ;
     }
     
-    .navbar .nav li a:hover {
-        color:#dce6dd !important;
     
-    }
      .site-map-section a:hover {
          color:#dce6dd !important;
      }
