@@ -208,7 +208,7 @@
     }
     
     .navbar .nav li a:hover {
-        color:#dce6dd !important;
+        color:blue !important;
     
     }
      .site-map-section a:hover {
