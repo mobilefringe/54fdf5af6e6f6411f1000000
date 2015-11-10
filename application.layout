@@ -146,9 +146,7 @@
     }
     
     /*menu colors*/
-    .navbar .nav li a{
-        color:white;
-    }
+    
     
     
     
