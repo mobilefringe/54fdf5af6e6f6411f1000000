@@ -144,7 +144,9 @@
         text-align:center;
         color:white !important;
     }
-    
+    .dropdown-menu a {
+        color:green;
+    }
     /*menu colors*/
     .navbar .nav li a{
         color:white;
