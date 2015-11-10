@@ -150,9 +150,7 @@
         color:white;
     }
     
-    .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:#dce6dd;
-    }
+    
     
     .site_welcome_msg{
         font-size:22px !important;
