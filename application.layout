@@ -212,7 +212,7 @@
         color:blue;
     }
     .navbar .nav li a:hover {
-        color:black ;
+        color:white ;
     
     }
      .site-map-section a:hover {
