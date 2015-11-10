@@ -145,7 +145,7 @@
         color:white !important;
     }
     .dropdown-menu a:hover {
-        color:green;
+        color:green !important;
     }
     /*menu colors*/
     .navbar .nav li a{
