@@ -151,7 +151,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:#135a1e;
+        color:blue;
     }
     
     .site_welcome_msg{
