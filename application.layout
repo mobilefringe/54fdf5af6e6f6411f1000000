@@ -208,7 +208,9 @@
     .right_column_header {
         color: #135a1e ;
     }
-    
+    .dropdown-menu a:hover{
+        color:blue;
+    }
     .navbar .nav li a:hover {
         color:black !important;
     
