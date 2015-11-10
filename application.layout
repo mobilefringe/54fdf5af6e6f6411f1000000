@@ -260,7 +260,7 @@
                                 </ul>    
                             </div>
                         </li>
-                        <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');" style="color:#48B95A">Contact Us <span class="caret"></span></a>
+                        <li><a href="#" onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
                             <div id="contact_dd" class="submenu" style="display:none">
                                 <ul>
                                     <li><a href="/contact_us">Contact Us</a></li>
@@ -348,7 +348,7 @@
                     
                         </p>
                         <p><i class="fa fa-phone"></i>        {{contact_phone}}</p>
-                        <p><i class="fa fa-envelope"></i> <a href="mailto:{{contact_email}}">        {{contact_email}}</a></p>
+                        <p><i class="fa fa-envelope"></i> <a href="mailto:{{contact_email}}" style="color:#48B95A">        {{contact_email}}</a></p>
                         </br>
                         {% endraw %}
                         </script>
