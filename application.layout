@@ -113,7 +113,7 @@
     
     /*hyperlink hover color*/
     a:hover{
-        color: #135a1e !important;
+        color: #135a1e;
     }
     
     body{
