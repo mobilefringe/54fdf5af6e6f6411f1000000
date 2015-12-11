@@ -22,7 +22,7 @@
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                          <br>
                          <p class="directory_content">
-                    <br>Guest Services
+                    <br><strong>Guest Services</strong>
                     <br>416.236.1668 
                     <br><a href="info@cloverdalemall.com">info@cloverdalemall.com</a></p>
                     <br>
@@ -122,7 +122,7 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
                       <p class="directory_content">
-                    <br>Guest Services
+                    <br><strong>Guest Services</strong>
                     <br>416.236.1668 
                     <br><a href="info@cloverdalemall.com">info@cloverdalemall.com</a></p>
                     <br>
