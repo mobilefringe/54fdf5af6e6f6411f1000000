@@ -128,6 +128,11 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                     <br>
+                     <p class="directory_content">
+                    <br><strong>Guest Services</strong>
+                    <br>416.236.1668 
+                    <br><a href="info@cloverdalemall.com">info@cloverdalemall.com</a></p>
+                    <br>
                     <p class="directory_content"><strong>Anne Vit  </strong> 
                     <br>General Manager
                     <br>416.236.1669 ext. 224 
