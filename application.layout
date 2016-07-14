@@ -95,7 +95,7 @@
         });   
         
     });
-    setEndPoint('http://twinpines.mallmaverickstaging.com/api/v2/twinpines/all.json');
+    setEndPoint('http://cloverdale.mallmaverick.com/api/v2/cloverdale/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 
