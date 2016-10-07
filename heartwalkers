@@ -1,0 +1,89 @@
+<div id="loading_screen">
+    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+</div>
+<div  id="main_content" style="display:none">
+    <ul class="breadcrumb">
+        <li><a href="/home">Home</a> </li>
+        <li class="active">Cloverdale Heartwalkers</li>
+    </ul>
+    <div class="page_banner">
+        Cloverdale Heartwalkers
+    </div>
+    <div class="inside_page_content">
+        <div class="left_column">
+          <br>
+            <img src= "//kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/fd39a04e684c2271ae38f3f47d692c29/CM_Heartwalkers logo_PMS 357.jpg">
+            <br><br><p>Our mall-walking program is an excellent way to stay fit in a comfortable, safe environment. You may sign up for our mall walking program via the Cloverdale Mall Administration Office, Monday through Friday from 9am to 5pm.</p>
+
+<p><strong>Membership cost:</strong><br />
+$7.00 Initial Membership<br />
+$5.00 Annual Renewal Fee</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Memberships grants you:</strong></p>
+
+<ul>
+	<li>A Cloverdale Heartwalkers Gift Item</li>
+	<li>Access into the centre before mall hours</li>
+	<li>Invitation to organized activities and social events</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>The Mall Entrance doors located between Green Mango Boys and Mr. Souvlaki are opened daily, Monday through Saturday, at 6:00am and at 6:30am on Sundays for our Cloverdale Mall Heartwalkers. Please note the hours listed above may be subject to change without prior notice and do not apply on statutory holidays.</p>
+
+<p>Distance once around the mall equates to 0.8 Kilometers.</p>
+
+        </div>
+        <div class="right_column">
+            <p class="right_column_header">centre information</p>
+            <div id="centre_info_container">
+                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                    <p class="directory_content">{{name}}</p>
+                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            $("#loading_screen").hide();
+            $("#main_content").show();
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+    
+  
+    });
+    
+</script>
