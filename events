@@ -53,7 +53,7 @@
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             // all_events = getEventsList();
-            all_events = getEventsList().sortBy(function(o){ return o.end_date }); 
+            all_events = getEventsList().sortBy(function(o){ return o.created_at }); 
             // all_events = all_events.reverse();
             events_array = []
             $.each( all_events , function( key, val ){
