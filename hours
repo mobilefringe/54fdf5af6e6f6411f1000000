@@ -12,7 +12,7 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/c70f3e8962f9156177a9740e47820f85/36666_CM_Girl_Image_1124x384.png"/>
-            <p class="right_column_header">regular hours</p>
+            <p class="right_column_header">extended holiday hours</p>
             <table id="reg_hours_container" class="reg_hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>
