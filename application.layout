@@ -97,7 +97,7 @@
         });   
         
     });
-    setEndPoint('https://cloverdale.mallmaverickstaging.com/api/v3/cloverdale/all.json');
+    setEndPoint('//cloverdale.mallmaverick.com/api/v3/cloverdale/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 
