@@ -11,7 +11,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54fdf5af6e6f6411f1000000/c70f3e8962f9156177a9740e47820f85/36666_CM_Promotions_Image_1124x384FYS.png"/>
+            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/580522536e6f6466ee020000/image/jpeg/1487367446000/40517_CM_Promotions Banner.jpg"/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
